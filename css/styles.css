@@ -1,0 +1,135 @@
+/******** Color Palette **********/
+:root{
+  --colortitlesBackground :#2B580C;
+  --colortextfont :#639A67;
+  --colorbackground :#D8EBB5;
+  --colortitlesfont :#D9BF77;
+  
+
+}
+
+/********Tag Elements **********/
+
+.pageHeadeTitle {
+  color: var(--colorbackground);
+
+}
+
+Body{
+  margin:0;
+}
+
+H1 {
+  color: var(--colortitlesBackground);
+  margin: 0;
+font-size:50px;
+font-weight: Bold;
+}
+
+H2 {
+color: var(--colortextfont);
+font-size:45px;
+font-weight: Bold;
+}
+
+H3 {
+font-size:40px;
+font-weight: Bold;
+}
+
+H4 {
+font-size:35px;
+font-weight: Bold;
+
+}
+
+H5 {
+  font-size:30px;
+  font-weight: Bold;
+
+}
+
+p {
+  margin: 30px;
+  font-size:30px;
+  text-align: justify;
+
+}
+
+textButon {
+  color: var(--colortitlesBackground);
+  font-size:15px;
+  font-weight: Bold;
+}
+
+hr {
+Size: 3;
+color: var(--colortitlesfont);
+}
+/********Class Elements **********/
+
+/* <div class="headerContainerStyle">
+</div>
+
+<div class="middleConteinerStyle">
+</div>
+
+<div class="footerContainerStyle">
+</div> */
+
+
+.headerContainerStyle {
+  background-color: var(--colortitlesBackground);
+  padding: 1%;
+  margin:0;
+}
+
+.middleConteinerStyle {
+  background-color: var(--colorbackground);
+  padding: 1%;
+  margin:0;
+}
+
+.footerContainerStyle {
+  background-color: var(--colortitlesfont);
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: var(--colortitlesBackground); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--colortitlesfont);
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/********ID Elements **********/
